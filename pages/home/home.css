@@ -1,0 +1,34 @@
+body{
+    background-image: url('../photos/say-no-to-drug.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+#home-nav-sec{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    gap: 20px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#home-nav-left{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#home-nav-right{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
